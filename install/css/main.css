@@ -1,0 +1,197 @@
+/* Кнопки */
+.pkt-button{
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    outline: none;
+    padding: 0;
+    text-transform: uppercase;    
+    text-decoration: none;   
+}
+.pkt-button_blue{
+    background-color: #3bc8f5;
+    border: 1px solid #3bc8f5;
+    color: #ffffff;
+}
+.pkt-button_blue:hover{
+    background-color: #3fddff;
+    border: 1px solid #3fddff;
+}
+.pkt-button_blue:active{
+    background-color: #13b1e3;
+    border: 1px solid #13b1e3;
+}
+.pkt-button_green{
+    background-color: #bbed21;
+    border: 1px solid #bbed21;
+    color: #535c69;
+}
+.pkt-button_green:hover{
+    background-color: #d2f95f;
+    border: 1px solid #d2f95f;
+}
+.pkt-button_green:active{
+    background-color: #b2e233;
+    border: 1px solid #b2e233;
+}
+.pkt-button_grey{
+    background-color: #868d95;
+    border: 1px solid #868d95;
+    color: #ffffff;
+}
+.pkt-button_grey:hover{
+    background-color: #5b6573;
+    border: 1px solid #5b6573;
+}
+.pkt-button_grey:active{
+    background-color: #3b506e;
+    border: 1px solid #3b506e;
+}
+.pkt-button_red{
+    background-color: #f1361b; 
+    border: 1px solid #f1361b;
+    color: #ffffff;
+}
+.pkt-button_red:hover{
+    background-color: #cc1a00;
+    border: 1px solid #cc1a00;
+}
+.pkt-button_red:active{
+    background-color: #d24430;
+    border: 1px solid #d24430;
+}
+.pkt-button_white{
+    background-color: #ffffff;
+    border: 1px solid #c6cdd3;
+    color: #535c69;
+}
+.pkt-button_white:hover{
+    background-color: #cfd4d8;
+}
+.pkt-button_white:active{
+    background-color: #dde2e5;
+}
+.pkt-button_size-l{
+    padding: 19px 28px;
+}
+.pkt-button_size-m{
+    padding: 16px 20px;
+}
+.pkt-button_size-s{
+    padding: 12px 19px;
+}
+/* Input, Select, Textarea */
+.pkt-field{
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4c7cc;
+    color: #424956;
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    outline: 0;
+    vertical-align: bottom;
+}
+.pkt-field:hover{
+    border-color: #64a6f3;
+}
+.pkt-field__item{
+    background-color: #bcedfc;
+    border-radius: 2px;
+    color: #333333;
+    display: inline;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;    
+    font-size: 14px;
+    padding: 6px 30px 6px 13px;
+    pointer-events: none;
+    position: relative;
+}
+.pkt-field__item::after{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzUzNUM2OSIgZD0iTTI0IDIwLjE4OGwtOC4zMTUtOC4yMDkgOC4yLTguMjgyLTMuNjk3LTMuNjk3LTguMjEyIDguMzE4LTguMzEtOC4yMDMtMy42NjYgMy42NjYgOC4zMjEgOC4yNC04LjIwNiA4LjMxMyAzLjY2NiAzLjY2NiA4LjIzNy04LjMxOCA4LjI4NSA4LjIwM3oiLz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    content: '';
+    cursor: pointer;
+    height: 8px;
+    opacity: 0.3;
+    pointer-events: auto;
+    position: absolute;
+    right: 8px;
+    top : 10px;
+    width: 8px;    
+}
+.pkt-field__item:hover::after{  
+    content: '';
+    opacity: 1;
+}
+.pkt-field_select{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIxMSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNTM1QzY5IiBkPSJNMCA3LjMzbDIuODI5LTIuODMgOS4xNzUgOS4zMzkgOS4xNjctOS4zMzkgMi44MjkgMi44My0xMS45OTYgMTIuMTd6Ii8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 39px;
+    -moz-appearance: none;
+    -webkit-appearance: none;    
+    padding: 10px 26px 10px 9px;
+}
+.pkt-field_select::-ms-expand{
+    display: none;
+}
+.pkt-field_string{
+    cursor: text;
+    height: 39px;
+    padding: 10px 9px;
+}
+.pkt-field_text{
+    cursor: text;
+    padding: 10px 9px;
+}
+/* Ссылки */
+.pkt-link{
+    background: none;
+    border: 0;
+    color: #2067b0;
+    cursor: pointer;
+    display: inline;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.pkt-link_decoration-dashed{
+    border-bottom: 1px dashed #2067b0;
+}
+.pkt-link_decoration-solid{
+    border-bottom: 1px solid #2067b0;
+}
+.pkt-link_decoration-solid-hover:hover{
+    border-bottom: 1px solid #2067b0;
+}
+/* Заголовки */
+.pkt-title{
+    display: block;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 0;    
+}
+.pkt-title_size-l{
+    font-size: 26px;
+    padding: 20px 0;
+}
+.pkt-title_size-m{
+    font-size: 22px;
+    padding: 16px 0;
+}
+.pkt-title_size-s{
+    font-size: 18px;
+    padding: 12px 0;
+}
+.pkt-title_size-xs{
+    font-size: 14px;
+    padding: 10px 0;
+}

@@ -1,0 +1,41 @@
+.input-captcha {
+    width: 49%;
+    display: inline-block;
+    border-radius: 0 !important;
+    padding: 0 20px;
+    height: 55px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #dedede;
+}
+.img-captcha {
+    width: 49%;
+    height: 55px;
+    margin-right: 2%;
+}
+
+.select-block.err, .input-captcha.err {
+    border: 1px solid #eb3300;
+}
+input[type=submit] {
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+span.remove-file {
+    background: url(/local/templates/main/img/icons/close.svg) right no-repeat;
+    background-size: 16px;
+    display: block;
+    height: 16px;
+    position: absolute;
+    width: 16px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.form-addfile-list li {
+    background: transparent !important;
+    position: relative;
+}

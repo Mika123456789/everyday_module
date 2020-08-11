@@ -1,0 +1,12 @@
+.form-addfile-list li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-center {
+    text-align: center;
+}
+
+.popup-info-table td {
+    vertical-align: top;
+}
